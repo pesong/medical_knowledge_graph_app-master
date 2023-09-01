@@ -10,8 +10,8 @@ class Neo4j_Handle():
         print("Neo4j Init ...")
 
     def connectNeo4j(self):
-        self.graph = Graph("http://127.0.0.1:7474", username="neo4j", password="pen")
-        # self.graph = Graph("http://127.0.0.1:7474", username="neo4j", password="123")
+        self.graph = Graph("http://175.27.227.221:7474", username="neo4j", password="pen")
+        # self.graph = Graph("http://175.27.227.221:7474", username="neo4j", password="123")
         self.matcher = NodeMatcher(self.graph)
 
     # 一.实体查询

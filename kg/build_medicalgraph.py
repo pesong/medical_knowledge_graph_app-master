@@ -15,10 +15,10 @@ class MedicalGraph:
         # self.data_path = os.path.join(cur_dir, 'data/medical.json')
         self.data_path = os.path.join(cur_dir, 'data/medical_rebuild.json')  # 键'symptom'的值是从新爬取的，对其了网址的症状库。
         self.g = Graph(
-            host="127.0.0.1",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
+            host="175.27.227.221",  # neo4j 搭载服务器的ip地址，ifconfig可获取到
             http_port=7474,  # neo4j 服务器监听的端口号
             user="neo4j",  # 数据库user name，如果没有更改过，应该是neo4j
-            password="pen")
+            password="1990Sp24")
 
     '''读取文件'''
 
